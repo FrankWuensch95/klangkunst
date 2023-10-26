@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.base-font {
-    font-family: 'TiltPrism';
+.header {
+    font-family: 'TiltPrism-Regular';
 }

@@ -1,0 +1,29 @@
+<template>
+  <div class="flex flex-col p-12">
+    <div class="text-lg">{{ title_info_1 }}</div>
+    <div>{{ info_1 }}</div>
+  </div>
+</template>
+
+<script>
+import InfoDirigent from "@/components/InfoDirigent";
+
+export default {
+  name: InfoDirigent,
+  data() {
+    return {
+      title_info_1: "Bertram Schade",
+      info_1: `Bertram Schade studierte an der Hochschule für Musik Stuttgart bei Prof. W. Melcher und Prof. I. Turban. 
+        1995 war er 2. Konzertmeister am städt. Theater Trier. Als Mitglied des Turina-Trios wurde er 1998 1. Preisträger 
+        des Internationalen Wettbewerbs „Carlo Soliva" in Casale Monferrato (Italien). Von 1996 bis 1999 war er Stipendiat 
+        er „Stiftung Podium junger Musiker“ Stuttgart. 2006 erhielt er den Solistenpreis der Stadt Gmunden.
+        Als Dirigent leitet er u.a. das Kammerorchester Plochingen, das Hochschulorchester Pforzheim und die Klangkunst Manufaktur.
+        Er unterrichtete als Dozent u.a. bei den “internationalen Musiktagen Salzburg" und dem "internationalen Arbeitskreis für Musik" an den 
+        Landesmusikakademien Ochsenhausen und Hammelburg. Das Musizieren in verschiedenen Kammermusikensembles, 
+        Ensembles für Neue Musik und für historische Aufführungspraxis sowie zahlreichen Orchestern führte zu internationaler 
+        Konzerttätigkeit, Auftritten bei international renommierten Festivals, sowie TV- und CD-Aufnahmen (u.a. als Mitglied des 
+        Bachcollegiums der internationalen Bachakademie Stuttgart, Boccherini-Sextett, Ilios-Trio).`,
+    };
+  },
+};
+</script>
