@@ -1,3 +1,3 @@
-module.exports = defineConfig({
+module.exports = {
   publicPath: '/klangkunst/',
-})
+}
