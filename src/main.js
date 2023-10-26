@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import '/dist/output.css'; // Corrected path to the CSS file
+import '/src/output.css'; // Corrected path to the CSS file
 
 import { createRouter, createWebHistory } from 'vue-router';
 import WebHeader from './components/WebHeader.vue'; // Corrected file extension
