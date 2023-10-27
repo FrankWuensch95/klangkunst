@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .relative {
   position: relative;
 }
@@ -631,10 +627,6 @@ video {
   --tw-gradient-to: rgb(77 124 15 / 0.2) var(--tw-gradient-to-position);
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .p-24 {
   padding: 6rem;
 }
@@ -652,11 +644,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-stone-800\/70 {
