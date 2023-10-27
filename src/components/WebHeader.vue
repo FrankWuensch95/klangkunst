@@ -8,7 +8,7 @@
         <router-link
           v-for="(nav, index) in navs"
           :key="index"
-          :to="nav === 'Über uns' ? '/klangkunst/ueber_uns' : `/klangkunst/${nav.toLowerCase()}`"
+          :to="nav === 'Über uns' ? '/<%=BASE_URL%>/ueber_uns' : `/<%=BASE_URL%>/${nav.toLowerCase()}`"
           class="group flex w-full justify-center whitespace-nowrap px-8 py-12 hover:cursor-pointer"
         >
           <div class="hover:text-stone-800 group-hover:underline">
