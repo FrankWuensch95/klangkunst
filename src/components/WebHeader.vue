@@ -1,14 +1,14 @@
 <template>
   <div
-    class="fixed relative z-10 flex h-24 w-full items-center justify-between overflow-hidden bg-lime-100 text-3xl text-stone-800/70 shadow-lg xl:text-xl"
+    class="relative z-10 flex h-24 w-full items-center justify-between overflow-hidden bg-lime-100 text-3xl text-stone-800/70 shadow-lg xl:text-xl"
   >
     <span class="flex w-full items-center gap-x-24">
-      <router-link to="/"><span class="header flex h-24 items-center whitespace-nowrap bg-white/50 px-8">{{ nav_title }}</span></router-link>
+      <span class="header flex h-24 items-center whitespace-nowrap bg-white/50 px-8">{{ nav_title }}</span>
       <span class="flex w-full items-center gap-x-24">
         <router-link
           v-for="(nav, index) in navs"
           :key="index"
-          :to="nav === 'Über uns' ? '/über uns' : `/${nav.toLowerCase()}`"
+          :to="nav === 'Über uns' ? '/ueber_uns' : `/${nav.toLowerCase()}`"
           class="group flex w-full justify-center whitespace-nowrap px-8 py-12 hover:cursor-pointer"
         >
           <div class="hover:text-stone-800 group-hover:underline">

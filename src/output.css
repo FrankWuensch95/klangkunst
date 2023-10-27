@@ -635,6 +635,10 @@ video {
   padding: 3rem;
 }
 
+.p-24 {
+  padding: 6rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -666,7 +670,28 @@ video {
 }
 
 .header {
-  font-family: 'TiltPrism-Regular';
+  font-family: '../fonts/TiltPrism-Regular';
+}
+
+.active {
+  font-weight: 900;
+}
+
+#app {
+  font-family: '../fonts/IbarraRealNova';
+}
+
+h1 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+
+article {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
 }
 
 .hover\:cursor-pointer:hover {

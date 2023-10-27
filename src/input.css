@@ -3,5 +3,21 @@
 @tailwind utilities;
 
 .header {
-    font-family: 'TiltPrism-Regular';
+    font-family: '../fonts/TiltPrism-Regular';
+}
+
+.active {
+    @apply font-black;
+}
+
+#app {
+    font-family: '../fonts/IbarraRealNova';
+}
+
+h1 {
+    @apply font-black text-2xl pb-4;
+}
+
+article {
+    @apply text-lg leading-relaxed;
 }

@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col p-12">
-    <div class="text-lg">{{ title_info_1 }}</div>
-    <div>{{ info_1 }}</div>
+  <div class="flex flex-col p-24">
+    <h1>{{ title_info_1 }}</h1>
+    <article>{{ info_1 }}</article>
   </div>
 </template>
 
