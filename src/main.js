@@ -9,9 +9,9 @@ import InfoDirigent from './components/InfoDirigent'
 const app = createApp(App)
 
 const routes = [
-  { path: '/<%=BASE_URL%>/', component: UeberUns },
-  { path: '/<%=BASE_URL%>/ueber_uns', component: UeberUns },
-  { path: '/<%=BASE_URL%>/dirigent', component: InfoDirigent },
+  { path: '/', component: UeberUns },
+  { path: '/ueber_uns', component: UeberUns },
+  { path: '/dirigent', component: InfoDirigent },
 ]
 
 const router = createRouter({

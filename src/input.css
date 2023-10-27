@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .header {
-    font-family: '../fonts/TiltPrism-Regular';
+    font-family: 'TiltPrism-Regular';
 }
 
 .active {
@@ -11,11 +11,11 @@
 }
 
 #app {
-    font-family: '../fonts/IbarraRealNova';
+    font-family: 'IbarraRealNova';
 }
 
 h1 {
-    @apply font-black text-2xl pb-4;
+    @apply pb-4 text-2xl font-black;
 }
 
 article {
