@@ -7,7 +7,7 @@
 }
 
 .active {
-    @apply font-black;
+    @apply text-stone-800;
 }
 
 #app {

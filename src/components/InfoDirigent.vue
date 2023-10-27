@@ -1,15 +1,10 @@
 <template>
-  <div class="flex flex-col p-24">
-    <h1>{{ title_info_1 }}</h1>
-    <article>{{ info_1 }}</article>
-  </div>
+  <h1>{{ title_info_1 }}</h1>
+  <article>{{ info_1 }}</article>
 </template>
 
 <script>
-import InfoDirigent from "@/components/InfoDirigent";
-
 export default {
-  name: InfoDirigent,
   data() {
     return {
       title_info_1: "Bertram Schade",

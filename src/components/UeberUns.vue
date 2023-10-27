@@ -1,18 +1,13 @@
 <template>
-  <div class="flex flex-col p-24">
-    <h1>{{ title_info_1 }}</h1>
-    <article>{{ info_1 }}</article>
-  </div>
+  <h1>{{ title_info_1 }}</h1>
+  <article>{{ info_1 }}</article>
 </template>
 
 <script>
-import UeberUns from "@/components/UeberUns";
-
 export default {
-  name: UeberUns,
   data() {
     return {
-      title_info_1: "Über uns",
+      title_info_1: "Das Orchester",
       info_1: `Die Klangkunst Manufaktur ist ein Orchester, das sich zweimal pro Jahr zu musikalischen 
               Projekten zusammenfindet um in intensiven Proben ein Konzertprogramm zu erarbeiten. 
               Es besteht vor allem aus musikbegeisterten Amateuren und einigen professionellen Musikern 
