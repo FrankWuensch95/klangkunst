@@ -19,9 +19,9 @@
 }
 
 h1 {
-    @apply pb-4 text-2xl font-black;
+    @apply pb-2 text-xl font-black xl:pb-4 xl:text-2xl;
 }
 
 article {
-    @apply text-lg leading-relaxed;
+    @apply pb-2 text-base leading-relaxed xl:pb-4 xl:text-lg;
 }
