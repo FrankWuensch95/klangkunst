@@ -24,10 +24,10 @@ const routes = [
 ]
 
 const router = createRouter({
-  mode: 'hash',
-  history: createWebHistory(),
+  history: createWebHistory('/klangkunst/'),
   routes: routes,
   linkActiveClass: "active",
+  mode: "hash",
 })
 
 app.use(router)
