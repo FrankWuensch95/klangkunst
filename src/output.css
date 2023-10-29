@@ -680,29 +680,6 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.from-orange-700\/20 {
-  --tw-gradient-from: rgb(194 65 12 / 0.2) var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(194 65 12 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.via-amber-400\/20 {
-  --tw-gradient-to: rgb(251 191 36 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(251 191 36 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.via-80\% {
-  --tw-gradient-via-position: 80%;
-}
-
-.to-lime-700\/20 {
-  --tw-gradient-to: rgb(77 124 15 / 0.2) var(--tw-gradient-to-position);
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
