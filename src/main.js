@@ -27,7 +27,7 @@ const router = createRouter({
   history: createWebHistory('/klangkunst/'),
   routes: routes,
   linkActiveClass: "active",
-  mode: "history",
+  mode: "hash",
 })
 
 app.use(router)
