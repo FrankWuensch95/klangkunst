@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 .header {
-    font-family: 'TiltPrism-Regular';
+    font-family: 'IbarraRealNova';
+}
+
+.italic {
+    font-family: 'IbarraRealNova-Italic';
 }
 
 .active {

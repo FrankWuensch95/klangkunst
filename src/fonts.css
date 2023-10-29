@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'TiltPrism-Regular';
-    src: url('TiltPrism-Regular.ttf');
+    src: url('../fonts/TiltPrism-Regular.ttf');
 }
 
 @font-face {
     font-family: 'IbarraRealNova-Italic';
-    src: url('IbarraRealNova-Italic-VariableFont_wght.ttf');
+    src: url('../fonts/IbarraRealNova-Italic-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'IbarraRealNova';
-    src: url('IbarraRealNova-VariableFont_wght.ttf');
+    src: url('../fonts/IbarraRealNova-VariableFont_wght.ttf');
 }

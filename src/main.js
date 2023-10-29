@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import '/src/fonts.css'
 import '/src/output.css'
 import '/src/iconify-min'
 

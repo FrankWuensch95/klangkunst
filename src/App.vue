@@ -19,7 +19,7 @@
         </div>
       </router-link>
     </span>
-    <span class="h-full w-full px-8 pb-12 pt-16 xl:px-24 xl:pb-24 xl:pt-24">
+    <span class="h-full w-full px-8 pb-12 pt-10 xl:px-16 xl:pb-16 xl:pt-16">
       <div
         id="content"
         class="flex h-full w-full flex-col gap-y-4 pt-12 text-stone-800 xl:pt-24"
