@@ -15,12 +15,12 @@ import InfoAktuelles from '@/components/InfoAktuelles'
 const app = createApp(App)
 
 const routes = [
-  { path: '/', component: UeberUns },
-  { path: '/ueber_uns', component: UeberUns },
-  { path: '/dirigent', component: InfoDirigent },
-  { path: '/geschichte', component: InfoGeschichte },
-  { path: '/aktuelles', component: InfoAktuelles },
-  { path: '/galerie', component: BilderGalerie },
+  { path: '<%= BASE_URL %>/', component: UeberUns },
+  { path: '<%= BASE_URL %>/ueber_uns', component: UeberUns },
+  { path: '<%= BASE_URL %>/dirigent', component: InfoDirigent },
+  { path: '<%= BASE_URL %>/geschichte', component: InfoGeschichte },
+  { path: '<%= BASE_URL %>/aktuelles', component: InfoAktuelles },
+  { path: '<%= BASE_URL %>/galerie', component: BilderGalerie },
 ]
 
 const router = createRouter({

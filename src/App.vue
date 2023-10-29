@@ -9,7 +9,7 @@
       <router-link
         v-for="(nav, index) in navs"
         :key="index"
-        :to="nav === 'Über uns' ? vueConfig.publicPath + '/ueber_uns' : `/${nav.toLowerCase()}`"
+        :to="nav === 'Über uns' ? '/ueber_uns' : `/${nav.toLowerCase()}`"
         class="group flex h-20 w-full justify-center whitespace-nowrap text-stone-800/50 hover:cursor-pointer"
       >
         <div
