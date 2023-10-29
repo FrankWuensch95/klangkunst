@@ -1,4 +1,6 @@
 module.exports = {
   publicPath: '/klangkunst/',
-  historyApiFallback: true,
+  devServer: {
+    historyApiFallback: true,
+  },
 }
