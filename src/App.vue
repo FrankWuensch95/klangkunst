@@ -10,10 +10,10 @@
         v-for="(nav, index) in navs"
         :key="index"
         :to="nav === 'Über uns' ? '/' : `/${nav.toLowerCase()}`"
-        class="group flex h-20 w-full justify-center whitespace-nowrap text-stone-800/50 hover:cursor-pointer"
+        class="group flex h-20 w-full justify-center whitespace-nowrap hover:cursor-pointer"
       >
         <div
-          class="flex h-full w-full items-center justify-end pr-8 hover:text-stone-800"
+          class="flex h-full w-full items-center justify-end pr-8"
         >
           {{ nav }}
         </div>
@@ -22,7 +22,7 @@
     <span class="h-full w-full px-8 pb-12 pt-10 xl:px-16 xl:pb-16 xl:pt-16">
       <div
         id="content"
-        class="mx-auto flex h-full w-full max-w-[1620px] flex-col pt-12 text-stone-800 xl:pt-24"
+        class="mx-auto flex h-full w-full max-w-[1620px] flex-col pt-12 xl:pt-24"
       >
         <router-view></router-view>
       </div>
