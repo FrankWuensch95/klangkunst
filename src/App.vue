@@ -2,28 +2,19 @@
   <div class="relative flex h-full w-full flex-col">
     <WebHeader></WebHeader>
     <!-- only visible on small screens -->
-    <span
-      id="menu"
-      class="absolute right-0 top-16 z-20 hidden w-[60%] divide-y divide-stone-400 rounded-bl-xl bg-stone-200 text-lg text-stone-800/50 shadow-xl shadow-stone-400/70 xl:hidden"
-    >
-      <router-link
-        v-for="(nav, index) in navs"
-        :key="index"
-        :to="nav === 'Über uns' ? '/' : `/${nav.toLowerCase()}`"
-        class="group flex h-20 w-full justify-center whitespace-nowrap hover:cursor-pointer"
-      >
+    <span id="menu"
+      class="absolute right-0 top-16 z-20 hidden w-[60%] divide-y divide-stone-400 rounded-bl-xl bg-stone-200 text-lg text-stone-800/50 shadow-xl shadow-stone-600/50 dark:bg-stone-700 dark:text-white/50 dark:shadow-black/70 xl:hidden">
+      <router-link v-for="(nav, index) in navs" :key="index" :to="nav === 'Über uns' ? '/' : `/${nav.toLowerCase()}`"
+        class="group flex h-20 w-full justify-center whitespace-nowrap hover:cursor-pointer">
         <div
-          class="flex h-full w-full items-center justify-end pr-8"
-        >
+          class="link flex h-full w-full items-center justify-end pr-8 group-hover:text-stone-800 group-hover:dark:text-white"
+          @load="setActiveClass">
           {{ nav }}
         </div>
       </router-link>
     </span>
-    <span class="h-full w-full px-8 pb-12 pt-10 xl:px-16 xl:pb-16 xl:pt-16">
-      <div
-        id="content"
-        class="mx-auto flex h-full w-full max-w-[1620px] flex-col pt-12 xl:pt-24"
-      >
+    <span class="h-full w-full px-8 pb-16 pt-16 xl:px-16">
+      <div id="content" class="mx-auto flex h-full w-full max-w-[1620px] flex-col pt-12 xl:pt-24">
         <router-view></router-view>
       </div>
     </span>
