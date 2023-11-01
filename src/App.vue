@@ -3,7 +3,7 @@
     <WebHeader></WebHeader>
     <!-- only visible on small screens -->
     <span id="menu"
-      class="absolute right-0 top-16 z-20 hidden w-[60%] divide-y divide-stone-400 rounded-bl-xl bg-stone-200 text-lg text-stone-800/50 shadow-xl shadow-stone-600/50 dark:bg-stone-700 dark:text-white/50 dark:shadow-black/70 xl:hidden">
+      class="fixed right-0 top-16 z-20 hidden w-[60%] divide-y divide-stone-400 rounded-bl-xl bg-stone-200 text-lg text-stone-800/50 shadow-xl shadow-stone-600/50 dark:bg-stone-700 dark:text-white/50 dark:shadow-black/70 xl:hidden">
       <router-link v-for="(nav, index) in navs" :key="index" :to="nav === 'Über uns' ? '/' : `/${nav.toLowerCase()}`"
         class="group flex h-20 w-full justify-center whitespace-nowrap hover:cursor-pointer">
         <div
